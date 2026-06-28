@@ -21,7 +21,7 @@ A fun and interactive Simon Game built using HTML,CSS and JavaScript using JQuer
 
 ## How to Play
 
-1. Press any key (or click the start button if implemented) to begin the game.
+1. Press any key to begin the game.
 2. Watch the sequence of colors shown by the game.
 3. Repeat the sequence by clicking the colored buttons in the correct order.
 4. Each correct round adds a new color to the sequence.

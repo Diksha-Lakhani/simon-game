@@ -9,6 +9,7 @@ function nextSequence(){
     userClickedPattern=[];
 
     $("h1").text(`Level ${level}`);
+    $("h2").text("");
     
     let randNum=Math.floor(Math.random()*4);
 

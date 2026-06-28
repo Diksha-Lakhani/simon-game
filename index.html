@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Simon</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Instructions</title>
+      <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
-
 <body>
-  <h1 id="level1-title"> Simon Game!</h1>
-  <h2 id="level2-title">Press A Key to Start</h2>
-  <div class="container">
-    <div class="row">
-      <div type="button" id="green" class="btn green">
-
-      </div>
-      <div type="button" id="red" class="btn red">
-
-      </div>
-    </div>
-  
-    <div class="row">
-      <div type="button" id="yellow" class="btn yellow">
-
-      </div>
-      <div type="button" id="blue" class="btn blue">
-
-      </div>
-
+    <h1 id="level1-title"> Simon Game!</h1>
+    <div id="level3-title">
+    <ol><p>Instructions:</p>
+      <li>Press any key to begin the game.</li>
+      <li>Watch the sequence of colors shown by the game.</li>
+      <li>Repeat the sequence by clicking the colored buttons in the correct order.</li>
+      <li>Each correct round adds a new color to the sequence.</li>
+      <li>The game ends when you click the wrong color.</li>
+      <li>Press any key again to restart and try to beat your previous level.</li>
+    </ol>
+    <br><br>
+    <div class="center">
+      <button type="button" class="start_btn">Start Game!</button>
     </div>
   </div>
-  <div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="index.js"></script>
+  <script>
+    const button = document.querySelector('.start_btn');
+    button.addEventListener('click', () => {
+      window.location.href = "game.html";
+    });
 
+  </script>
 </body>
-
 </html>
