@@ -1,0 +1,25 @@
+{
+  "name": "simon_game_project",
+  "version": "1.0.0",
+  "description": "A fun and interactive Simon Game built using HTML,CSS and JavaScript using JQuery. The game challenges players to memorize and repeat an increasingly long sequence of colors and sounds.",
+  "homepage": "https://github.com/Diksha-Lakhani/simon-game#readme",
+  "bugs": {
+    "url": "https://github.com/Diksha-Lakhani/simon-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diksha-Lakhani/simon-game.git"
+  },
+  "license": "ISC",
+  "author": "diksha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
