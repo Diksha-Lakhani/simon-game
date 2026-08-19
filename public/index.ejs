@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Instructions</title>
-      <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Instructions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
+
 <body>
-    <h1 id="level1-title"> Simon Game!</h1>
-    <div id="level3-title">
-    <ol><p>Instructions:</p>
+  <h1 id="level1-title"> Simon Game!</h1>
+  <div id="level3-title">
+    <ol>
+      <p>Instructions:</p>
       <li>Press any key to begin the game.</li>
       <li>Watch the sequence of colors shown by the game.</li>
       <li>Repeat the sequence by clicking the colored buttons in the correct order.</li>
@@ -19,15 +22,10 @@
     </ol>
     <br><br>
     <div class="center">
-      <button type="button" class="start_btn">Start Game!</button>
+      <form action="/game" method="POST">
+        <button type="submit" class="start_btn">Start Game!</button>
+      </form>
     </div>
   </div>
-  <script>
-    const button = document.querySelector('.start_btn');
-    button.addEventListener('click', () => {
-      window.location.href = "game.html";
-    });
-
-  </script>
 </body>
 </html>
