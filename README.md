@@ -122,5 +122,7 @@ This project helped in understanding:
 ## Author
 
 **Diksha Lakhani**
+
 Computer Science Engineering Student
+
 Vellore Institute of Technology
